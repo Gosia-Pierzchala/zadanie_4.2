@@ -1,9 +1,7 @@
 public class Line {
-    double pointS;
-    double pointE;
-
+    Point point = new Point();
     Line (double pointS, double pointE){
-        this.pointS = pointS;
-        this.pointE = pointE;
+        point.pointS = pointS;
+        point.pointE = pointE;
     }
 }

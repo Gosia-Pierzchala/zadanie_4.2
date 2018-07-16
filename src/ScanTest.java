@@ -8,13 +8,13 @@ public class ScanTest {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Podaj punkt początkowy pierwszego odcinka: ");
-        line1.pointS = scan.nextDouble();
+        line1.point.pointS = scan.nextDouble();
         System.out.println("Podaj punkt końcowy pierwszego odcinka: ");
-        line1.pointE = scan.nextDouble();
+        line1.point.pointE = scan.nextDouble();
         System.out.println("Podaj punkt początkowy drugiego odcinka: ");
-        line2.pointS = scan.nextDouble();
+        line2.point.pointS = scan.nextDouble();
         System.out.println("Podaj punkt końcowy drugiego odcinka: ");
-        line2.pointE = scan.nextDouble();
+        line2.point.pointE = scan.nextDouble();
         scan.close();
 
         Method method = new Method();
